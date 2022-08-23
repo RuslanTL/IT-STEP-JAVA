@@ -7,6 +7,6 @@ public class RectangleAdapter implements Shape{
     }
     @Override
     public void draw(int x, int y, int z, int j) {
-        adaptee.draw(x, y, z, j);
+        adaptee.draw(x,y,z,j);
     }
 }
